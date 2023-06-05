@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>etch-a-sketch</title>
     <script src="index.js" defer></script>
-    <style src="style.css"></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="parent">hi</div>
+    <div id="parent">
+        <div id="red" class="color" onclick="changeSelectedColor('red')"></div>
+        <div id="blue" class="color" onclick="changeSelectedColor('blue')"></div>
+        <div id="green" class="color" onclick="changeSelectedColor('green')"></div>
+        <div id="white" class="color" onclick="changeSelectedColor('white')"></div>
+        <div id="black" class="color" onclick="changeSelectedColor('black')"></div>
+        <div id="orange" class="color" onclick="changeSelectedColor('orange')"></div>
+        <div id="purple" class="color" onclick="changeSelectedColor('purple')"></div>
+        <div id="yellow" class="color" onclick="changeSelectedColor('yellow')"></div>
+    </div>
 </body>
 </html>

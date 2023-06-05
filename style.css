@@ -1,3 +1,46 @@
 #parent {
+    display: flex;
     flex: auto;
+    background-color: grey;
+}
+
+.columns {
+    display: flex;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
+
+#white {
+    background-color: white;
+}
+
+#black {
+    background-color: black;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
 }
